@@ -1,0 +1,22 @@
+#sliders {
+    height: 400px;
+    width: 60%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+.thumble_img {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    height: 250px;
+}
+
+.select_img {
+    border: 2px solid #000;
+}
+
+.slider-item {
+    display: none;
+}

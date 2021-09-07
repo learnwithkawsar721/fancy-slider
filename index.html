@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Slider</title>
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="container">
+        <h2 class="text-center mt-3">Search Image for create Slider</h2>
+        <div class="form-inline d-flex justify-content-center mt-3">
+            <div class="form-group col-6">
+                <input type="text" id="search_field" class="form-control">
+            </div>
+            <button id="search_btn" class="btn btn-primary">Search</button>
+        </div>
+        <section class="input_slider d-none">
+            <div class="mt-4 d-lg-flex justify-content-center">
+                <h4>Select Image for Create Slider</h4>
+                <div class="form-group col-4 ms-2">
+                    <input type="text" id="duration" placeholder="Set duration " class="form-control">
+                </div>
+                <button id="creat_slider" class="btn btn-primary p2 ms-2">Create Slider</button>
+            </div>
+        </section>
+        <section class="gallary mt-4">
+            <div class="row g-4 show_gallary">
+
+            </div>
+        </section>
+        <section class="main_slider">
+            <div class="mt-5" id="sliders">
+
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+    <!-- App Js -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
